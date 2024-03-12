@@ -1,0 +1,84 @@
+
+body {
+  background-color: #eb7aff;
+  display:  flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  margin-top: 5%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: 550px;
+  width: 400px;
+}
+
+.head {
+  height: 105px;
+  /* transform: rotate(30deg); */
+  background-color: #b228c9;
+}
+
+.body{
+  display: flex;
+  flex-direction: column;
+  height: 340px;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.foot{
+  width: auto;
+  height: 105px ;
+  background-color: #7937bf;
+  padding-top: 3%;
+}
+
+.pic{
+  border: solid;
+  border-width: 5px;
+  border-color: white;
+  border-radius: 100%;
+  width: 120px;
+  margin-top: -50px;
+  margin-left: 140px;
+}
+
+.name {
+  margin-top: -2px;
+  font-size: xx-large;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+}
+.icon{
+  width: 50px;
+  height: 4px;
+  background-color: black;
+  border-radius: 50px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-top: -10px;
+  margin-left: 180px ;
+}
+.content{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+}
+
+.apps{
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 5px;
+
+}
+.app{
+  width: 30px;
+}
+
+.fb{
+  width: 18px;
+}

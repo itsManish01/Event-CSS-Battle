@@ -1,0 +1,153 @@
+body{
+  background-color: #d3ced9;
+  margin: 0;
+}
+nav{
+  border-radius: 0 0 20px 20px;
+}
+
+.search{
+  display: flex;
+  padding: 10px;
+  gap:10px;
+  background-color: whitesmoke;
+  flex-direction: row;
+}
+.search >img{
+  width:30px;
+  background-color: white;
+  padding: 5px;
+  border-radius: 15%;
+}
+.search > input{
+  background-color: white;
+  border: none;
+  width: 75%;
+}
+.profile{
+  display: flex;
+  flex-direction: row;
+}
+.profile > p{
+  padding-left: 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.profile>img{
+  width:50px;
+  border-radius: 50%;
+}
+
+.container {
+  margin: 50px;
+  display: grid;
+  gap : 20px;
+  grid-template-columns: auto auto auto auto;
+}
+
+.card {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  background-color: aliceblue;
+}
+.right{
+  width: 300px;
+  border-radius: 20px;
+  background-color: aliceblue;
+  height: 920px;
+  grid-column: 4 / span 4;
+  grid-row: 1 / span 4;
+}
+.left{
+  width: 300px;
+  background-color: aliceblue;
+  border-radius: 20px;
+  height: 600px;
+  grid-column: 1 / span 1;
+  grid-row: 2 / span 4;
+}
+.post{
+  width: 620px;
+  border-radius: 20px;
+  background-color: aliceblue;
+  height: 600px;
+  grid-column: 2 / span 3;
+  grid-row: 2 / span 4;
+}
+.footer{
+  display: flex;
+  flex-direction: row;
+  width: 1260px;
+  gap : 50px;
+  margin: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: -180px;
+  border-radius: 20px;
+  background-color: aliceblue;
+  height: 100px;
+  padding: 10px;
+}
+.footer > img{
+  border-radius: 50%;
+}
+.footer > p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  align-self: center;
+  width: 1000px;
+  color: blue;
+  font-weight: 700;
+}
+.name {
+  color:gray;
+  background-color: #c0b6cc;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: x-large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 50px;
+}
+.card >img {
+  width: 100px;
+  border-radius: 50%;
+  margin-left: 90px;
+  border: solid;
+  border-width: 5px;
+  border-color: #d3ced9;
+}
+.score {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: xx-large;
+  padding-left:110px;
+}
+.right>p{
+  color:gray;
+  background-color: #c0b6cc;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: x-large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 50px;
+}
+.cont{
+  display: flex;
+  flex-direction: row;
+  color:gray;
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size:medium;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 50px;
+  margin-top: 15px;
+}
+.cont > img{
+  margin-left: -20px;
+  width: 30px;
+  margin-right: 20px;
+}
